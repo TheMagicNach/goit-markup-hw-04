@@ -206,9 +206,15 @@ margin-left: auto;
 .hero{
     color:var(--primary-white-color);
     background-color: var(--primary-text-color) ;
+    
     text-align: center;
     /* padding-top: 192px;
     padding-bottom: 192px; */
+    height: 600px;
+    max-width: 1440px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero .hero-title{
        margin: 0 auto 48px auto;
@@ -540,8 +546,12 @@ border-radius: 0px 0px 4px 4px;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
-.card-menu .item:hover,
-.card-menu .item:focus{
+.card-menu .link{
+    display: block;
+
+}
+.card-menu .card-href:hover,
+.card-menu .card-href:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /* .portfolio-desc{outline: 1px solid tomato;}
